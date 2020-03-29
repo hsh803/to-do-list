@@ -1,0 +1,61 @@
+body {
+  background-color: #f6f6f6;
+  text-align: center;
+  color: #006762;
+}
+
+.container {
+  width: 500px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.inputBox {
+  margin: 20px 0;
+}
+
+#myInput {
+  width: 250px;
+  height: 17px;
+
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 8px;
+  }
+
+ul {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 8px 0;
+  list-style-type: none;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+  user-select: none;
+  justify-content: center;
+}
+
+.checked {
+  background: #aabcb9;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+#btn {
+  background-color: #006762;
+  color: #fff;
+  border: none;
+  border-radius: 10%;
+  padding: 5px;
+}
